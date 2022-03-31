@@ -98,6 +98,3 @@ FROM bitnami/ghost:4.37.0-debian-10-r5
 
 # Tags: 4.37.0-debian-10-r4
 FROM bitnami/ghost:4.37.0-debian-10-r4
-
-# Tags: 4.37.0-debian-10-r3
-FROM bitnami/ghost:4.37.0-debian-10-r3
