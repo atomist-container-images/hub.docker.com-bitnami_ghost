@@ -1,12 +1,16 @@
-# Tags: latest, 4.46.1-debian-10-r0, 4.46.1, 4-debian-10, 4
+# Tags: latest, 4.46.2-debian-10-r0, 4.46.2, 4-debian-10, 4
 FROM bitnami/ghost:latest
-FROM bitnami/ghost:4.46.1-debian-10-r0
-FROM bitnami/ghost:4.46.1
+FROM bitnami/ghost:4.46.2-debian-10-r0
+FROM bitnami/ghost:4.46.2
 FROM bitnami/ghost:4-debian-10
 FROM bitnami/ghost:4
 
 # Tags: _
 FROM bitnami/ghost:_
+
+# Tags: 4.46.1-debian-10-r0, 4.46.1
+FROM bitnami/ghost:4.46.1-debian-10-r0
+FROM bitnami/ghost:4.46.1
 
 # Tags: 4.46.0-debian-10-r3, 4.46.0
 FROM bitnami/ghost:4.46.0-debian-10-r3
@@ -113,6 +117,3 @@ FROM bitnami/ghost:4.42.1-debian-10-r0
 # Tags: 4.42.0-debian-10-r2, 4.42.0
 FROM bitnami/ghost:4.42.0-debian-10-r2
 FROM bitnami/ghost:4.42.0
-
-# Tags: 4.42.0-debian-10-r1
-FROM bitnami/ghost:4.42.0-debian-10-r1
